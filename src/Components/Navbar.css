@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links{
+    display: flex;
+    gap: 20px;
+  }  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+  }
+  
+  /* Underline effect on hover */
+  .nav-links a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffcc00; /* Change to your desired hover color */
+    bottom: -2px;
+    left: 50%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  

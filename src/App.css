@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  /* background: linear-gradient(to bottom, #63a4ff, #83eaf1) no-repeat fixed; */
+  /* background: linear-gradient(45deg, #26a1f4, #6284a1) no-repeat fixed; Initial gradient */
+  animation: gradientTransition 5s infinite alternate;
+}
+
+@keyframes gradientTransition {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.Form {
+  align-items: center;
+  text-align: center;
+  position: relative;
+top: 12vh;
+}
+
+.Input {
+  height: 4vh;
+  width: 20vw;
+  border: 2px solid black;
+  border-radius: 19px;
+  text-align: center;
+font-size: 1rem;
+}
+
+.city{
+  display: flex;
+flex-direction: row;
+gap: 2rem;
+}
+
+.enter{
+ top: 12px;
+ position: relative;
+}
+
+.label{
+  display: flex;
+flex-direction: row;
+gap: 2vw;
+align-items: center;
+justify-content: center;
+}
+
+#Submit{
+  border: 2px solid white;
+border-radius: 14px;
+background-color: transparent;
+height: 5vh;
+width: 8vw;
+transition: background-color 0.5s linear;
+}
+
+#Submit:hover{
+  background-color: azure;
+  
+}
+
+.display{
+  display: grid;
+position: relative;
+place-items: center;
+top: 25vh;
+width: 80vw;
+margin: auto;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+gap: 10vw;
+}
+
+.weather-img> img{
+  width: 15rem;
+}
+
+.leaflet-container {
+  height: 300px;
+  width: 100%;
+}
+
+a:visited{
+  background-color: black;
+  background-color: blue;
+  font-size: larger;
+}
+
+.hello> a:visited{
+  background-color: aliceblue;
+}
+

@@ -1,0 +1,52 @@
+/* Container for news items */
+body{
+    margin: 0;padding: 0;
+    background-color: #f8f8f8;
+}
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+/* Style for each news item */
+.news {
+    width: calc(25% - 10px);  /* Adjust the width based on your layout preference */
+    margin-bottom: 20px; /* Add spacing between news items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    display: flex;
+    flex-direction: column;
+    background-color: #d0e1f9;
+  }
+  
+  
+  /* Style for the link */
+  .News {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  /* Style for the image */
+  .News img {
+    width: 75%; /* Adjust the image width based on your preference */
+    height: 25vh;
+    border-radius: 8px 8px 0 0; /* Add rounded corners to the top */
+    margin: 0 auto; /* Add rounded corners to the top */
+    display: block;
+  }
+  
+  /* Style for the news content */
+  .News p {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .news:nth-last-child(-n + 2) {
+      margin: 0 auto;
+    }
+  }
