@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 .navbar {
     background-color: #333;
@@ -23,16 +23,15 @@
   }
   
   .nav-links a:hover {
-    color: #ffcc00; /* Change to your desired hover color */
+    color: #ffcc00; 
   }
   
-  /* Underline effect on hover */
   .nav-links a::before {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #ffcc00; /* Change to your desired hover color */
+    background-color: #ffcc00; 
     bottom: -2px;
     left: 50%;
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;

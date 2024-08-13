@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  /* background: linear-gradient(to bottom, #63a4ff, #83eaf1) no-repeat fixed; */
-  /* background: linear-gradient(45deg, #26a1f4, #6284a1) no-repeat fixed; Initial gradient */
   animation: gradientTransition 5s infinite alternate;
 }
 
